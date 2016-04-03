@@ -4,12 +4,10 @@ public class Factorial{
         System.out.println("Enter a Number");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-	System.out.println("The Factorial is "+n);
-        int  fact=1;
-	System.out.println("The Factorial is "+fact);
-        for(int i=1;i<=n;i++)
+	int  fact=1;
+	for(int i=1;i<=n;i++)
         {
-System.out.println(i);
+
             fact=fact*i;
         }
         System.out.println("The Factorial is "+fact);
